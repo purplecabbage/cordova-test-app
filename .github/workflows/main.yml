@@ -36,4 +36,4 @@ jobs:
           cordova --version
           ls
           cordova platform add ios
-          cordova build ios
+          cordova build --release --device ios
