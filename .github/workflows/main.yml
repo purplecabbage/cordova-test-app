@@ -34,4 +34,6 @@ jobs:
         run: |
           npm install -g cordova
           cordova --version
-          echo test, and deploy your project.
+          ls
+          cordova platform add ios
+          cordova build ios
